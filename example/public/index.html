@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sample Collaborative Editor</title>
+		<link rel="stylesheet" type="text/css" href="styles/global.css"/>
+		<script type="text/javascript" data-main="scripts/app" src="scripts/require.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="documents">
+				Available documents:
+				<ul>
+
+				</ul>
+			</div>
+			<form>
+				<div>
+					<input id="title" type="text" name="title" placeholder="Untitled Document"/>
+					<input type="button" value="Create"/>
+				</div>
+				<div>
+					<div id="document" tabindex="1"></div>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

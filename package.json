@@ -1,0 +1,10 @@
+{
+	"name": "com.izaakschroeder.operational-transform",
+	"version": "0.0.1",
+	"main": "lib/engine",
+	"dependencies": {
+		"com.izaakschroeder.collections": ">=0.0.1",
+		"com.izaakschroeder.interval-tree-clock": ">=0.0.1",
+		"amdefine": ">=0.0.2"
+	}
+}
